@@ -1,0 +1,9 @@
+---
+applications:
+- name: call-boot-api
+  memory: 64M
+  env:
+    APIURL: http://diarmaid-boot.cfapps.io/
+    NODE_ENV: test
+  command: node app.js
+
